@@ -1,0 +1,102 @@
+#container{
+    background-color: rgb(238, 193, 238);
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    overflow: scroll;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(244, 235, 244);
+}
+
+#containerHead{
+    overflow: hidden;
+    border-radius: 13px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(234, 153, 234);
+    padding: 12px 23px;
+    height: 25px;
+    gap: 12px;
+}
+
+#containerHead input{
+    border-radius: 4px;
+    width: 40%;
+    height: 20px;
+}
+
+#containerHead button{
+    border-radius: 4px;
+    padding: 2px 16px;
+    letter-spacing: 1px;
+    background-color: hotpink;
+    height: 24px;
+    color: white;
+}
+
+#containerBody{
+}
+#containerBody div{
+    margin: 5px 12px;
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgb(255, 119, 228);
+}
+
+#containerBody div div{
+    gap: 23px;
+    
+}
+#containerBody div div button{
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.editContainer{
+    width: 100%;
+    top: 0;
+    height: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editBox{
+    height: 50vh;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(195, 190, 190);
+    border-radius: 8px;
+    display: none;
+}
+
+.editInputBox>input{
+    padding: 10px 23px;  
+    border: 0px;  
+    background-color: white;
+    margin: 20px 200px 10px;
+    font-size: 1.1rem;
+}
+.editInputBox{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.editInputBox>button{
+    margin: 23px 200px;
+    padding: 5px 45px;
+    font-size: 1.5rem;
+}

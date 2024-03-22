@@ -1,0 +1,19 @@
+nav{
+    background-color: rgb(54, 52, 52);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 12px 10px;
+    color: snow;
+    padding: 6px 22px;
+    border-radius: 23px;
+}
+
+ul li:hover{
+    background-color: rgb(36, 35, 35);;
+}
